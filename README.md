@@ -9,3 +9,9 @@ Based on [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
 
 ## What to edit
 - Global setup: `config/_default/params.yaml`.
+- Top menu: `config/_default/menus.yaml`
+
+## TODO
+- Enable menus: Talks, News, Experience, Projects, Teaching
+
+
