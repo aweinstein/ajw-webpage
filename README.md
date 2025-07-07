@@ -8,8 +8,10 @@ Based on [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
 - Automatically import your publications from BibTeX: [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter).
 
 ## What to edit
+- Personal info: `config/_default/hugo.yaml`.
 - Global setup: `config/_default/params.yaml`.
-- Top menu: `config/_default/menus.yaml`
+- Top menu: `config/_default/menus.yaml`.
+- Sections of the landing page: `content/_index.md`.
 
 ## TODO
 - Enable menus: Talks, News, Experience, Projects, Teaching
