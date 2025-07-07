@@ -1,0 +1,43 @@
+---
+title: 'Biased instantaneous regional muscle activation maps: Embedded fuzzy topology
+  and image feature analysis'
+authors:
+- Carlos De la Fuente
+- Alejandro Weinstein
+- Alejandro Neira
+- Oscar Valencia
+- Carlos Cruz-Montecinos
+- Rony Silvestre
+- Patricio A. Pincheira
+- Felipe Palma
+- Felipe P. Carpes
+date: '2022-01-01'
+publishDate: '2025-07-07T22:18:07.691170Z'
+publication_types:
+- article-journal
+publication: '*Frontiers in Bioengineering and Biotechnology*'
+abstract: The instantaneous spatial representation of electrical propagation produced
+  by muscle contraction may introduce bias in surface electromyographical (sEMG) activation
+  maps. Here, we described the effect of instantaneous spatial representation (sEMG
+  segmentation) on embedded fuzzy topological polyhedrons and image features extracted
+  from sEMG activation maps. We analyzed 73,008 topographic sEMG activation maps from
+  seven healthy participants (age 21.4 textpm 1.5 years and body mass 74.5 textpm
+  8.5~kg) who performed submaximal isometric plantar flexions with 64 surface electrodes
+  placed over the medial gastrocnemius muscle. Window lengths of 50, 100, 150, 250,
+  500, and 1,000~ms and overlap of 0, 25, 50, 75, and 90% to change sEMG map generation
+  were tested in a factorial design (grid search). The Shannon entropy and volume
+  of global embedded tri-dimensional geometries (polyhedron projections), and the
+  Shannon entropy, location of the center (LoC), and image moments of maps were analyzed.
+  The polyhedron volume increased when the overlap was textless25% and textgreater75%.
+  Entropy decreased when the overlap was textless25% and textgreater75% and when the
+  window length was textless100~ms and textgreater500~ms. The LoC in the x-axis, entropy,
+  and the histogram moments of maps showed effects for overlap (p textless 0.001),
+  while the LoC in the y-axis and entropy showed effects for both overlap and window
+  length (p textless 0.001). In conclusion, the instantaneous sEMG maps are first
+  affected by outer parameters of the overlap, followed by the length of the window.
+  Thus, choosing the window length and overlap parameters can introduce bias in sEMG
+  activation maps, resulting in distorted regional muscle activation.
+links:
+- name: URL
+  url: https://www.frontiersin.org/articles/10.3389/fbioe.2022.934041
+---

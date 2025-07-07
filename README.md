@@ -12,6 +12,7 @@ Based on [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
 - Global setup: `config/_default/params.yaml`.
 - Top menu: `config/_default/menus.yaml`.
 - Sections of the landing page: `content/_index.md`.
+- Use [academic Python script](https://pypi.org/project/academic/) to import BibTex into `content/publications`.
 
 ## TODO
 - Enable menus: Talks, News, Experience, Projects, Teaching

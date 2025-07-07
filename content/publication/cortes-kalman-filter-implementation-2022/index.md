@@ -1,0 +1,56 @@
+---
+title: Kalman Filter Implementation of Subglottal Impedance-Based Inverse Filtering
+  to Estimate Glottal Airflow during Phonation
+authors:
+- Juan P. Cortés
+- Gabriel A. Alzamendi
+- Alejandro J. Weinstein
+- Juan I. Yuz
+- Víctor M. Espinoza
+- Daryush D. Mehta
+- Robert E. Hillman
+- Mat\ás Zañartu
+date: '2022-01-01'
+publishDate: '2025-07-07T22:18:07.618056Z'
+publication_types:
+- article-journal
+publication: '*Applied Sciences*'
+doi: 10.3390/app12010401
+abstract: Subglottal Impedance-Based Inverse Filtering (IBIF) allows for the continuous,
+  non-invasive estimation of glottal airflow from a surface accelerometer placed over
+  the anterior neck skin below the larynx. It has been shown to be advantageous for
+  the ambulatory monitoring of vocal function, specifically in the use of high-order
+  statistics to understand long-term vocal behavior. However, during long-term ambulatory
+  recordings over several days, conditions may drift from the laboratory environment
+  where the IBIF parameters were initially estimated due to sensor positioning, skin
+  attachment, or temperature, among other factors. Observation uncertainties and model
+  mismatch may result in significant deviations in the glottal airflow estimates;
+  unfortunately, they are very difficult to quantify in ambulatory conditions due
+  to a lack of a reference signal. To address this issue, we propose a Kalman filter
+  implementation of the IBIF filter, which allows for both estimating the model uncertainty
+  and adapting the airflow estimates to correct for signal deviations. One-way analysis
+  of variance (ANOVA) results from laboratory experiments using the Rainbow Passage
+  indicate an improvement using the modified Kalman filter on amplitude-based measures
+  for phonotraumatic vocal hyperfunction (PVH) subjects compared to the standard IBIF;
+  the latter showing a statistically difference (p-value =0.02, F=4.1) with respect
+  to a reference glottal volume velocity signal estimated from a single notch filter
+  used here as ground-truth in this work. In contrast, maximum flow declination rates
+  from subjects with vocal phonotrauma exhibit a small but statistically difference
+  between the ground-truth signal and the modified Kalman filter when using one-way
+  ANOVA (p-value =0.04, F=3.3). Other measures did not have significant differences
+  with either the modified Kalman filter or IBIF compared to ground-truth, with the
+  exception of H1-H2, whose performance deteriorates for both methods. Overall, both
+  methods (modified Kalman filter and IBIF) show similar glottal airflow measures,
+  with the advantage of the modified Kalman filter to improve amplitude estimation.
+  Moreover, Kalman filter deviations from the IBIF output airflow might suggest a
+  better representation of some fine details in the ground-truth glottal airflow signal.
+  Other applications may take more advantage from the adaptation offered by the modified
+  Kalman filter implementation.
+tags:
+- inverse filtering
+- Kalman filter
+- vocal hyperfunction
+links:
+- name: URL
+  url: https://www.mdpi.com/2076-3417/12/1/401
+---
